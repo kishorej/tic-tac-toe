@@ -1,0 +1,19 @@
+{
+  "name": "tic-tac-toe-local",
+  "version": "1.0.0",
+  "description": "Simple Tic-Tac-Toe web app served locally",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --coverage"
+  },
+  "keywords": ["tic-tac-toe", "game", "local"],
+  "devDependencies": {
+    "jest": "^29.6.1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
